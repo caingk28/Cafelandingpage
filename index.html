@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gourmet Haven</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Gourmet Haven</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="tab-link active" data-tab="home">Home</a></li>
+        <li><a href="#menu" class="tab-link" data-tab="menu">Menu</a></li>
+        <li><a href="#reservations" class="tab-link" data-tab="reservations">Reservations</a></li>
+        <li><a href="#contact" class="tab-link" data-tab="contact">Contact</a></li>
+      </ul>
+      <div class="search-icon"><i class="fas fa-search"></i></div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="tab-content active">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="tagline">Experience culinary excellence</p>
+          <h1>Discover the art of fine dining</h1>
+          <button class="cta-button">Discover Menu</button>
+        </div>
+        <div class="hero-image">
+          <img src="craiyon_193130_a_colorful_quinoa_salad_with_tomatoes__cucumbers__and_onions__served_in_a_bowl_with_a.png" alt="Delicious food" id="foodImage">
+          <div class="carousel-arrows">
+            <button class="arrow left"><i class="fas fa-chevron-left"></i></button>
+            <button class="arrow right"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="tab-content">
+      <h2>Our Menu</h2>
+      <div class="menu-categories">
+        <div class="menu-category">
+          <h3>Appetizers</h3>
+          <ul>
+            <li>Bruschetta - $8</li>
+            <li>Calamari - $12</li>
+            <li>Spinach and Artichoke Dip - $10</li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <h3>Main Courses</h3>
+          <ul>
+            <li>Grilled Salmon - $22</li>
+            <li>Filet Mignon - $28</li>
+            <li>Vegetarian Pasta - $18</li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <h3>Desserts</h3>
+          <ul>
+            <li>Chocolate Lava Cake - $9</li>
+            <li>Tiramisu - $8</li>
+            <li>Crème Brûlée - $7</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservations" class="tab-content">
+      <h2>Make a Reservation</h2>
+      <form class="reservation-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="date" required>
+        <input type="time" required>
+        <input type="number" placeholder="Number of guests" min="1" max="10" required>
+        <textarea placeholder="Special requests" rows="4"></textarea>
+        <button type="submit" class="cta-button">Reserve Table</button>
+      </form>
+    </section>
+
+    <section id="contact" class="tab-content">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Foodville, FK 12345</p>
+        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> info@gourmethaven.com</p>
+      </div>
+      <div class="contact-form">
+        <h3>Send us a message</h3>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Your message" rows="4" required></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>m                                                                                                                                                                                                                                                                                                                                                                                                                                        
